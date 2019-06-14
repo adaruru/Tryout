@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-TW">
+	<head>
+		<title>分業會出現的字Page Title </title>
+		<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+	</head>
+	<body>
+	    不用加P或h    直接打就是忽略     2個以上的空格  也不會換行
+		<br/>
+		
+		沒有空格會換行<br/>
+		
+		嚕嚕嚕嚕&nbsp;嚕嚕嚕嚕 半形不換行空格 1/2 em<br/><!--半形不換行空格-->
+		嚕嚕嚕嚕&ensp;嚕嚕嚕嚕 半形空格 1/2 em<br/><!--半形空格-->
+		嚕嚕嚕嚕&emsp;嚕嚕嚕嚕 全形空格 em<br/><!--全形空格-->
+		嚕嚕嚕嚕&thinsp;嚕嚕嚕嚕 窄空格 1/6 em<br/><!--窄空格，全稱是Thin Space。它是em之六分之一寬。-->
+		嚕嚕嚕嚕&zwnj;嚕嚕嚕嚕 零寬不連字<br/><!--Zero Width Non Joiner 零寬不連字 抑制本來會發生的連字-->
+		嚕嚕嚕嚕&zwj;嚕嚕嚕嚕 零寬連字<br/><!--Zero Width Joiner 使不會發生連字的產生了連字效果-->
+	
+		<h2>The target Attribute</h2>
+
+		<a href="https://www.w3schools.com/html/" target="_blank">Visit our HTML tutorial blank!-新分頁</a> <br/>
+		<a href="https://www.w3schools.com/html/" target="_parent">Visit our HTML tutorial parent! =預設</a> <br/>
+		<a href="https://www.w3schools.com/html/" target="_new">Visit our HTML tutorial new! -新分頁</a> <br/>
+		<br/>
+		You can use an element called frames to cut up your webpage into chunks.. <br/>
+		each with its own source html page in each frame.<br/>
+		A frame locks you into that page.. so if you click links they load in the frame by default, <br/>
+		not the whole page. <br/>
+		If you are using links that need to load the webpage not into a frame <br/>
+		you need to use the target attribute to 'break out' of a frame.<br/>
+		You can also use the target attribute to open a link in a new window/tab with target='_blank'<br/>
+<br/>
+		<a href="https://www.w3schools.com/html/" target="_top">Visit our HTML tutorial! top=預設</a> <br/>
+
+		<p>If you set the target attribute to "_blank", the link will open in a new browser window or tab.</p>
+		
+		<h1>This is heading</h1>
+		<p>This is another paragraph</p>
+		<a href="http://www.runoob.com/css/css-tooltip.html" title="tooltip">This is a link for css tooltip</a>
+		<p title ="About W3Schools">W3Schools is a web developer's site.</p>
+		<img src="P1230080.JPG" alt="D:\下載" width="104" height="142">
+		<img src="P1230080.JPG" alt="D:\下載" width="300" height="160">
+		<p>
+			<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"> <br>
+			<img src="/i/w3school_logo_white.gif" />
+		</p>
+		<button> Click </button>
+		<ul>
+			<li>coffee</li>
+			<li>tea</li>
+			<li>wine</li>
+		</ul>
+		<ol>
+			<li>coffee</li>
+			<li>tea</li>
+			<li>wine</li>
+		</ol>
+		<p>This is a paragraph <br> with a break</P>
+		<p>This is a paragraph <br/> with a closed break element</P>
+		
+		<p style="color:red">I'm a red paragraph</p>
+		
+		//囉嗦一點的長寬規格<br/>
+		<img src="測試.JPG" alt="測試沒有" width="250" height="125"><br/>
+		//再囉嗦一點<br/>
+		<img src="P1230080.JPG" alt="夜景" style="width:250px;height:125px;"><br/>
+		<p title="移過去看到我">this is a 移過來看看 paragraph </p>
+		
+		<h2>Heading 2</h2>
+		<body>
+			<p>body 2  paragraph</p>
+		</body>
+		<h3>Heading 3</h3>
+		<body>
+			<p>body 3 paragraph</p>
+			<!--看看accesskey-->
+			<a href="http://www.runoob.com/tags/att-global-accesskey.html" accesskey="w" title="Alt+w會移過來">Accesskey </a><br/>
+			<p style="color:chocolate">This is a try different color paragraph</p>
+		</body>
+		<p>
+		This paragraph
+		contains a lot of lines
+		in the source code,
+		but the browser 
+		ignores it.
+		</p>
+
+		<p>
+		This paragraph
+		contains         a lot of spaces
+		in the source         code,
+		but the        browser 
+		ignores it.
+		</p>
+		
+		<p>
+		My Bonnie lies over the ocean.
+		My Bonnie lies over the sea.
+		My Bonnie lies over the ocean.
+		Oh, bring back my Bonnie to me.
+		</p>
+		
+		<div style="color:aqua">see preformatted is courier font</div>
+		<pre>
+		My Bonnie lies over the ocean.
+
+		My Bonnie lies over the sea.
+
+		My Bonnie lies over the ocean.
+		
+		Oh, bring back my Bonnie to me.
+		</pre>
+		<br>
+		想說試試看<br>
+		<br>
+		<p>
+		<div style="property:value;">css的proverty跟value，哭哭喔 結果啥也沒有..</div>
+		</p><br>
+		<p style="background-color:powderblue;">
+		check if it become poederblue
+		<div>if insert another div the style will be invalid</div>
+		</p>
+
+		<h4 style="font-family:verdana;">This is a heading 4 with font verdana</h4>
+		<h4>This is a normal heading 4</h4>
+		<p style="font-family:courier;"><b>This is a paragrapg with font courier also Bold</b></p>
+		<br>
+		<h5 style="font-size:300%;">this is a 300% larger heading5</h5>
+		<p style="font-size:150%;">this is a 160% larger paragraph</p>
+		<br>
+		<h6 style="text-align:center;">this is a center aligned heading</h6>
+		<p style="text-align:center-left;">this is a center-left aligned paragraph</p>
+		<p style="text-align:left;">this is a left aligned paragraph</p>
+		
+		<br>
+		
+		<b>this is a bold text 就是粗體</b><br/>
+		<strong>this is a strong text 就是粗體 強調 優先度較高</strong><br/>
+		<i>this is a Italic text 就是斜體</i><br/>
+		<em>this is a emphasized text斜視為了強調 不同語調</em><br/>
+		<mark>this is a marked/highlighted text反黃</mark><br/>
+		<small>this is a small text就只是小點</small><br/>
+		<del>this is a deleted text就是刪除線</del><br/>
+		<s>this is a strikethrough text不再正確No longer correct 刪除線</s><br/>
+		<ins>this is a inserted text底線</ins><br/>
+		<sub>this is a subscript text縮小下移一點</sub><br/>
+		<sup>this is a superscript text縮小上移一點</sup><br/>
+		<br/>
+		
+		<h7 style="background-color:DodgerBlue;">Hello background-color</h7>
+		<P style="background-color:Tomato;">
+		Doesn't matter Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		</p>
+		<br/>
+		
+		<h1 style="color:Tomato;">Hello tomato</h1>
+		<p style="color:DodgerBlue">hello  DodgerBlue</p>
+		<p style="color:MediumSeaGreen">Hello MediumSeaGreen</p>
+		<br/>
+		
+		<h1 style="border:2px solid Tomato;">bordered 2px tomato</h>
+	
+		<p style="border:3px solid Violet;">bordered 3px violet h會把P包著</p>
+		
+		<h1 style="border: 2px solid Tomato;">Hello World</h1>
+
+		<h1 style="border: 2px solid DodgerBlue;">Hello World</h1>
+
+		<h1 style="border: 2px solid Violet;">Hello World</h1>
+		
+		<P dir="rtl"> p 的話 只是移到左邊turn the right to left change direction</P>
+		<bdo dir="rtl">bdo 的話 所有字續顛倒turn the right to left change direction</bdo>
+		
+		
+		<h1 style="background-color:#ff0000;">#ff0000</h1>
+		<h1 style="background-color:#0000ff;">#0000ff</h1>
+		<h1 style="background-color:#00ff00;">#00ff00</h1>
+		<h1 style="background-color:#ee82ee;">#ee82ee</h1>
+		<h1 style="background-color:#ffa500;">#ffa500</h1>
+		<h1 style="background-color:#6a5acd;">#6a5acd</h1>
+		
+		<p style="background-color:#ff0000;">#ff0000</p><p style="background-color:#0000ff;">#0000ff</p>
+		<p style="background-color:#00ff00;">#00ff00</p><p style="background-color:#ee82ee;">#ee82ee</p>
+		<p style="background-color:#ffa500;">#ffa500</p><p style="background-color:#6a5acd;">#6a5acd</p>
+		
+	</body>
+	
+</html>
