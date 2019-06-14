@@ -1,0 +1,32 @@
+h1 {
+    color:red;
+}
+
+button {
+    margin-top: 30px;
+    float: left;
+    height: 50px;
+}
+
+img {
+    float:left;
+    margin-right:10px;
+    margin-left:10px;
+    width:200px;
+}
+.clear {
+    clear:both;
+}
+
+#theBorder {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: relative;
+}
+#theBox {
+    width: 30px;
+    height: 30px;
+    background: red;
+    position: absolute;
+}
